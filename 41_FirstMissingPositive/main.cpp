@@ -10,7 +10,6 @@ using std::endl;
 
 int main() {
     Solution sol;
-
     for (TestCase<vector<int>, int> &testcase : TEST_CASES) {
         string teststr = Utility::vec2Str(testcase.test);
         const string expected = std::to_string(testcase.expected);
