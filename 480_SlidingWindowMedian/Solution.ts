@@ -20,9 +20,6 @@ function medianSlidingWindow(nums: number[], k: number): number[] {
         rHeap.push(lHeap.pop()!);
     }
 
-    console.log(lHeap.toArray());
-    console.log(rHeap.toArray());
-
     function addNum(num: number) {
         const invalidNum: number = nums[l];
 
